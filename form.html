@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="./form.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Form</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+		rel="stylesheet"
+	</head>
+	<body>
+		<form classname="form" action="#">
+			<label for="input1">Текстовое поле 1</label>
+			<input type="text" id="input1" class="form__input1" />
+			<label for="input2">Текстовое поле 2</label>
+			<input type="text" id="input2" class="form__input2" />
+			<label for="first">Список 1</label>
+			<select name="first" id="first" class="form__select">
+				<option default value="0" class="form__option">Выбрать значение</option>
+				<option value="1" class="form__option">1</option>
+				<option value="2" class="form__option">2</option>
+				<option value="3" class="form__option">3</option>
+				<option value="4" class="form__option">4</option>
+				<option value="5" class="form__option">5</option>
+			</select>
+			<label for="second">Список 2</label>
+			<select name="second" id="second" class="form__select">
+				<option default value="0" class="form__option">Выбрать значение</option>
+				<option value="1" class="form__option">1</option>
+				<option value="2" class="form__option">2</option>
+				<option value="3" class="form__option">3</option>
+				<option value="4" class="form__option">4</option>
+				<option value="5" class="form__option">5</option>
+			</select>
+			<label for="third">Список 3</label>
+			<select name="third" id="third" class="form__select">
+				<option default value="0" class="form__option">Выбрать значение</option>
+				<option value="1" class="form__option">1</option>
+				<option value="2" class="form__option">2</option>
+				<option value="3" class="form__option">3</option>
+				<option value="4" class="form__option">4</option>
+				<option value="5" class="form__option">5</option></select
+			><label for="fourth">Список 4</label>
+			<select name="fourth" id="fourth" class="form__select">
+				<option default value="0" class="form__option">Выбрать значение</option>
+				<option value="1" class="form__option">1</option>
+				<option value="2" class="form__option">2</option>
+				<option value="3" class="form__option">3</option>
+				<option value="4" class="form__option">4</option>
+				<option value="5" class="form__option">5</option></select
+			><label for="fifth">Список 5</label
+			><select name="fifth" id="fifth" class="form__select">
+				<option default value="0" class="form__option">Выбрать значение</option>
+				<option value="1" class="form__option">1</option>
+				<option value="2" class="form__option">2</option>
+				<option value="3" class="form__option">3</option>
+				<option value="4" class="form__option">4</option>
+				<option value="5" class="form__option">5</option>
+			</select>
+			<button type="submit">Submit</button>
+		</form>
+		<div class="request__body">
+			<h3>Структура JSON</h3>
+			<div class="request__input1">
+				<p class="request__input1_property">input1:</p>
+				<p class="request__input1_value"></p>
+			</div>
+			<div class="request__input2">
+				<p class="property">input2:</p>
+				<p class="request__input2_value"></p>
+			</div>
+			<div class="request__select1">
+				<p class="property">select1:</p>
+				<p class="request__select1_value"></p>
+			</div>
+			<div class="request__select2">
+				<p class="property">select2:</p>
+				<p class="request__select2_value"></p>
+			</div>
+			<div class="request__select3">
+				<p class="property">select3:</p>
+				<p class="request__select3_value"></p>
+			</div>
+			<div class="request__select4">
+				<p class="property">select4:</p>
+				<p class="request__select4_value"></p>
+			</div>
+			<div class="request__select5">
+				<p class="property">select5:</p>
+				<p class="request__select5_value"></p>
+			</div>
+		</div>
+
+		<script src="./form.js"></script>
+	</body>
+</html>

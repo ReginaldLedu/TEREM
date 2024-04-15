@@ -1,0 +1,26 @@
+* {
+	margin-top: 10px;
+	padding: 0;
+	display: block;
+	font-family: "Montserrat";
+}
+@mixin request__box {
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+}
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.request__input1,
+.request__input2,
+.request__select1,
+.request__select2,
+.request__select3,
+.request__select4,
+.request__select5 {
+	@include request__box;
+}
